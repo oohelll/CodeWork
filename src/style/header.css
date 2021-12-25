@@ -778,6 +778,9 @@ nav span {
 }
 
 @media screen and (max-width: 400px) {
+  nav {
+    background-color: yellow;
+  }
   nav h1 {
     font-size: 33px;
   }
@@ -833,6 +836,7 @@ nav span {
 @media screen and (max-width: 350px) {
   nav {
     padding: 3% 4%;
+    background-color: blue;
   }
 
   nav h1 {
