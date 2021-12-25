@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>CodeWork</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Code<span>Work</span></h1>
+            <ul class="nav-list">
+                <li>Belajar <i class="bi bi-caret-down-fill"></i></li>
+                <li>Beasiswa</li>
+                <li>Kelas <i class="bi bi-caret-down-fill"></i></li>
+                <ul class="btn-nav-list">
+                    <li><button role="button" class="masuk">
+                            <p>Login</p>
+                        </button>
+                    </li>
+                    <li><button role="button">
+                            <p class="register">Register</p>
+                        </button>
+                    </li>
+                </ul>
+            </ul>
+
+            <div class="btn-nav">
+                <button role="button" id="masuk">
+                    <p>Masuk</p>
+                </button>
+                <button role="button">
+                    <p>Daftar</p>
+                </button>
+            </div>
+
+            <!-- Modal Login -->
+            <div class="login-modal" id="login-modal">
+                <div class="modal-content">
+                    <span class="close">x</span>
+                    <h1>Masuk</h1>
+                    <form>
+                        <div class="email-area">
+                            <label class="form-label">Email</label>
+                            <input type="email" id="form-name" placeholder="Masukkan Email">
+                        </div>
+                        <div class="pass-area">
+                            <label class="form-label">Password</label>
+                            <input type="password" id="form-pass" placeholder="Masukkan Password Anda">
+                        </div>
+                        <a href="#" class="forgot-pass">Lupa Password?</a>
+                        <button type="submit" class="form-btn">Masuk</button>
+                        <p>Belum Punya Akun? <a href="#" class="daftar">Daftar</a></p>
+                    </form>
+                </div>
+            </div>
+            <!-- Modal Login -->
+
+            <!-- Modal Daftar/Register -->
+            <div class="login-modal" id="login-modal">
+                <div class="modal-content">
+                    <span class="close"></span>
+                    <h1>Daftar</h1>
+                    <form></form>
+                </div>
+            </div>
+            <!-- Modal Daftar/Register -->
+
+            <div class="burger">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
+        </nav>
+    </header>
+    <script src="./app.js" type="module"></script>
+</body>
+
+</html>
