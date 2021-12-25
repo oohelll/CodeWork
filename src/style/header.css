@@ -723,12 +723,12 @@ nav span {
   }
 
   .nav-list {
-    top: 8vh;
+    top: 9vh;
     font-size: 18px;
   }
 
   .nav-list li {
-    padding: 1% 8%;
+    padding: 1% 8.5%;
   }
 
   nav h1 {
@@ -764,7 +764,6 @@ nav span {
 @media screen and (max-width: 450px) {
   nav {
     padding: 3% 6%;
-    background-color: red;
   }
 
   nav h1 {
@@ -777,10 +776,8 @@ nav span {
   }
 }
 
+/* Layar Hp Redmi Note 8 */
 @media screen and (max-width: 400px) {
-  nav {
-    background-color: yellow;
-  }
   nav h1 {
     font-size: 33px;
   }
@@ -836,7 +833,6 @@ nav span {
 @media screen and (max-width: 350px) {
   nav {
     padding: 3% 4%;
-    background-color: blue;
   }
 
   nav h1 {
