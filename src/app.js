@@ -1,4 +1,5 @@
-import { burger, modal } from "./script/components/header.js";
+import { burger } from "./script/components/header.js";
 
 burger();
-modal();
+// carrousel();
+// modal();
